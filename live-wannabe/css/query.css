@@ -1,0 +1,29 @@
+@media screen and (max-width: 419px){
+    #lezioni .row{
+        background-color: #F2F2CD;
+        margin-top: 0;
+    }
+    #lezioni .row .left,
+    #lezioni .row .right,
+    #steps .row .left,
+    #steps .row .central,
+    #steps .row .right{
+        width: 100%;
+    }
+    .row h1{
+        font-size: 50px;
+    }
+    .row h3{
+        font-size: 35px;
+        margin: 0;
+    }
+    .row{
+        font-size: 30px;
+    }
+    .row div{
+        padding-bottom: 20px;
+    }
+    #why .row{
+        background-color: #F2F2CD;
+    }
+}
