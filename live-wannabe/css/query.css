@@ -1,5 +1,6 @@
 @media screen and (max-width: 419px){
-    #lezioni .row{
+    #lezioni .row,
+    #why .row{
         background-color: #F2F2CD;
         margin-top: 0;
     }
@@ -23,7 +24,28 @@
     .row div{
         padding-bottom: 20px;
     }
+}
+@media (min-width: 420px) and (max-width: 1024px) {
+    #lezioni .row,
     #why .row{
-        background-color: #F2F2CD;
+        background-color: cornflowerblue;
+        margin-top: 0;
     }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 50%;
+        float: left;
+    }
+    .row h1{
+        font-size: 60px;
+    }
+    .row{
+        font-size: 30px
+    }
+    .row h3{
+        font-size: 45px;
+        margin: 0;
+    }
+    
+  
 }
