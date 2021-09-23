@@ -24,8 +24,14 @@
     .row div{
         padding-bottom: 20px;
     }
+    .container.grey{
+        background-color: #ffffff;
+    }
+    img{
+        height: 100px;
+    }
 }
-@media (min-width: 420px) and (max-width: 1024px) {
+@media (min-width: 419px) and (max-width: 1024px) {
     #lezioni .row,
     #why .row{
         background-color: cornflowerblue;
@@ -46,6 +52,10 @@
         font-size: 45px;
         margin: 0;
     }
-    
-  
+    .container.grey{
+        background-color: #ffffff;
+    }
+    img{
+        height: 120px;
+    }
 }
